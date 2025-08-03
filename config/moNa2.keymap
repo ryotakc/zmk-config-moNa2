@@ -65,10 +65,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R             &kp T                                                          &kp Y                    &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F             &kp G                   &kp RS(RG(NUMBER_4))    &kp MINUS      &kp H                    &kp J  &kp K      &kp L    &kp ENTER
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B                   &lt 4 COLON             &kp SEMICOLON  &kp N                    &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LC(SPACE)     &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 INT_HENKAN  &mt LEFT_ALT LG(SPACE)  &lt 1 INT_MUHENKAN      &kp BACKSPACE  &mt RIGHT_COMMAND SPACE                             &kp DEL
+&kp Q             &kp W         &kp E             &kp R            &kp T                                                            &kp Y                    &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S         &kp D             &kp F            &kp G                   &kp RS(RG(NUMBER_4))      &kp MINUS      &kp H                    &kp J  &kp K      &kp L    &kp ENTER
+&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V            &kp B                   &lt 4 RS(RG(NUMBER_4))    &kp SEMICOLON  &kp N                    &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp LA(SPACE)     &kp LEFT_WIN  &kp LEFT_CONTROL  &lt 3 LC(SPACE)  &mt LEFT_ALT LG(SPACE)  &lt 1 INT_MUHENKAN        &kp BACKSPACE  &mt RIGHT_COMMAND SPACE                             &kp DEL
             >;
 
             sensor-bindings =
