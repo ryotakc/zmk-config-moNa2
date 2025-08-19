@@ -55,6 +55,11 @@
             bindings = <&mkp MCLK>;
             key-positions = <18 19 20>;
         };
+
+        Backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <8 9>;
+        };
     };
 
     macros {
