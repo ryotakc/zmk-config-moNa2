@@ -33,27 +33,27 @@
 
         left-click {
             bindings = <&mkp LCLK>;
-            key-positions = <18 19>;
+            key-positions = <17 18>;
         };
 
         right-click {
             bindings = <&mkp RCLK>;
-            key-positions = <19 20>;
+            key-positions = <19 18>;
         };
 
         Single-Quate {
             bindings = <&kp SQT>;
-            key-positions = <30 31>;
+            key-positions = <30 29>;
         };
 
         Double-Quate {
             bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <31 32>;
+            key-positions = <30 31>;
         };
 
         middle_click {
             bindings = <&mkp MCLK>;
-            key-positions = <18 19 20>;
+            key-positions = <18 19 17>;
         };
 
         Backspace {
